@@ -1,0 +1,59 @@
+CS50x Final Project Specification
+
+Project Title: TaskTracker
+Author: Arthi Bhowmick
+Submission Year: 2025
+
+Overview:
+TaskTracker is a web-based to-do list application built with Flask. It allows users to register, log in securely, and manage personal tasks. Users can add tasks, mark them as complete, and view their current task list.
+
+Functionality Requirements:
+✓ At least one HTML page with JavaScript
+✓ At least one CSS file with five or more distinct CSS selectors and five or more distinct CSS properties
+✓ At least four different HTML pages:
+    - index.html
+    - about.html
+    - contact.html
+    - now.html
+✓ Layout template (layout.html) for consistent design
+✓ User authentication system with register and login/logout
+✓ Tasks stored in a SQLite database
+✓ Ability to add and mark tasks as done
+✓ A "now" page that shows the current time
+
+Technical Details:
+• Python with Flask framework
+• HTML, CSS, JavaScript for frontend
+• SQLite database (tasktracker.db)
+• Passwords hashed with Werkzeug
+• Jinja2 templating engine for dynamic pages
+
+File Structure:
+tasktracker/
+├── app.py
+├── tasktracker.db
+├── requirements.txt
+├── specification.txt
+├── README.md
+├── static/
+│   ├── styles.css
+│   └── script.js
+├── templates/
+│   ├── layout.html
+│   ├── index.html
+│   ├── about.html
+│   ├── contact.html
+│   ├── now.html
+│   ├── login.html
+│   └── register.html
+
+Acknowledgments:
+This project was inspired by CS50’s teachings. All code was written from scratch by me, and open-source tools like Flask were used.
+
+How to Run:
+1. Set up a Python virtual environment.
+2. Install dependencies: pip install -r requirements.txt
+3. Create the database with necessary tables.
+4. Run the app using: flask run
+
+
