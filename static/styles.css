@@ -1,0 +1,49 @@
+* styles.css */
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header style */
+h1 {
+    color: #343a40;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Task list item */
+.task-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Checkbox + done task styling */
+.done {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.6;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
